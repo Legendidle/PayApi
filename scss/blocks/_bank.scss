@@ -51,9 +51,11 @@
     row-gap: 48px;
   }
   .bank__item{
+    width: 100%;
     margin: 0 auto;
   }
   .bank__item +.bank__item{
+    width: 100%;
     margin: 0 auto;
   }
 }

@@ -61,7 +61,8 @@
 
             <form method="post" action="https://echo.htmlacademy.ru" class="intro__form">
               <label class="intro__label">
-                <input class="intro__input" placeholder="Enter email address" type="email" autocomplete="off" required>
+                <input class="intro__input"  name="user_email"
+                placeholder="Enter email address" type="email" autocomplete="off" required>
               </label>
 
               <button class="intro__button button">
@@ -215,6 +216,26 @@
             </p>
           </li>
         </ul>
+      </div>
+    </section>
+
+    <section class="start">
+      <div class="start__container container">
+        <div class="start__inner">
+          <h3 class="start__title">
+            Ready to start?
+          </h3>
+
+          <form method="post" action="https://echo.htmlacademy.ru" class="start__form">
+            <label class="start__label">
+              <input class="start__input" name="user_email" placeholder="Enter email address" type="email" autocomplete="off" required>
+            </label>
+
+            <button class="start__button button">
+              Schedule a Demo
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   </main>
