@@ -380,7 +380,7 @@ body {
 
 @media only screen and (max-width: 780px) {
   body {
-    background-position: 0px 70%;
+    background-position: 0px -10%;
     background-size: 100%;
   }
 }
@@ -477,6 +477,10 @@ body {
     left: -28px;
     margin-left: auto;
     cursor: pointer;
+  }
+  body {
+    background-position: 0px -4%;
+    background-size: 100%;
   }
   .checkbox::before {
     position: absolute;
