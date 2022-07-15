@@ -1,0 +1,26 @@
+.easy{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.easy__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.easy__img{
+  width: 445px;
+  height: 284px;
+}
+.easy__box{
+  max-width: 445px;
+  width: 100%;
+}
+.easy_title{
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+}
